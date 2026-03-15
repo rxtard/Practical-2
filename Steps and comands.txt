@@ -1,0 +1,11 @@
+Step1 :- Go to terminal
+Type command  sudo raspi-config
+Go to interface option Enable settingSSHSPII2C
+Step 2 :- Type command  sudo reboot
+to restart Raspberry Pi to monitoring a camera.
+Step 3:- Type command  libcamera-hello
+To check the camera is monitoring or not.
+Step 4:- Type command  libcamera-still -o image.jpg
+Click Image  Save in File Manager home/Sneha save as  image.jpg
+Step 5:- Type command  libcamera-vid -o video.h264 -t 10000
+Click Video  Save in File Manager home/Sneha save as  video h264
